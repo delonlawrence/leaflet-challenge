@@ -2,7 +2,7 @@
 //setting up global variables
 
     //variable used for d3 json request function
-    const url = 'https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson';
+    const url = 'https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson';
 
     // D3 request to get data
     d3.json(url).then(function (data) {
